@@ -4,6 +4,9 @@
 <img width="902" height="438" alt="image" src="https://github.com/user-attachments/assets/2255b3f3-5f3d-4337-8f56-2dd247fb8095" />
 
 
+<img width="1914" height="932" alt="image" src="https://github.com/user-attachments/assets/19cffcdb-33d6-402b-8566-de341ca062c9" />
+
+
 A responsive web application to search and display restaurant information. The application consists of a React frontend and a Node.js/Express backend with SQLite database.
 
 ## Overview
