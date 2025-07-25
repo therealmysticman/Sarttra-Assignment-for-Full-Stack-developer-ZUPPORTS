@@ -35,14 +35,10 @@ A Node.js/Express backend with SQLite database for the Restaurant Finder applica
 
    ```
 
-  
-
 2. Import data from SQL file:
    ```bash
    npm run import-data
    ```
-  **Screenshot of set database complete:**
-  <img width="495" height="229" alt="image" src="https://github.com/user-attachments/assets/29aa7110-01dd-4b4b-aaa2-642f89f3e119" />
 
 3. Start the development server:
    ```bash
