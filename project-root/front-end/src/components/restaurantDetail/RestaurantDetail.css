@@ -1,0 +1,146 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  padding: 20px;
+}
+
+.modal-content {
+  background-color: white;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 800px;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  padding-bottom: 20px;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #ffffff;
+  background: #FB4141;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s;
+}
+
+.close-button:hover {
+  background: #882121;
+  color: #ffffff;
+}
+
+.modal-header {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.restaurant-detail-image {
+  width: 350px;
+  height: 250px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.restaurant-detail-info {
+  padding: 20px;
+}
+
+.restaurant-detail-info h2 {
+  margin: 0 0 10px 0;
+  color: #333;
+  font-size: 1.8rem;
+}
+
+.restaurant-detail-meta {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.hours, .rating {
+  font-size: 0.9rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.hours {
+  background-color: #e8f5e9;
+  color: #388e3c;
+}
+
+.rating {
+  background-color: #fff3e0;
+  color: #f57c00;
+}
+
+.address {
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.map-container {
+  padding: 0 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.restaurant-detail-description {
+  padding: 0 20px 20px;
+}
+
+.restaurant-detail-description h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.restaurant-detail-description p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+
+/* Responsive styles */
+@media (min-width: 768px) {
+  .modal-header {
+    flex-direction: row;
+    align-items: stretch;
+  }
+  
+  .restaurant-detail-image {
+    width: 350px;
+    height: 250px;
+    margin: 20px 0 20px 20px;
+    border-radius: 8px;
+  }
+  
+  .restaurant-detail-info {
+    width: 60%;
+  }
+} 

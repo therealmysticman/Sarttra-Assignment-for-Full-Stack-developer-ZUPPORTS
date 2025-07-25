@@ -1,0 +1,51 @@
+/* Base styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f8f9fa;
+  overflow-x: hidden; /* Prevent horizontal scrollbar from full-width header */
+}
+
+#root {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+  width: 100%;
+}
+
+/* Error message styles */
+.error-message {
+  background-color: #ffebee;
+  color: #c62828;
+  padding: 0.8rem 1rem;
+  border-radius: 4px;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  border-left: 4px solid #c62828;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Results container styles */
+.results-container {
+  flex: 1;
+} 

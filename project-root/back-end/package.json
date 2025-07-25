@@ -1,0 +1,23 @@
+{
+  "name": "restaurant-finder-backend",
+  "version": "1.0.0",
+  "description": "Backend for Restaurant Finder application",
+  "main": "server/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js",
+    "test": "node test-api.js",
+    "import-data": "node dataset/import-data.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6",
+    "sqlite": "^5.0.1",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+} 
