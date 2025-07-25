@@ -26,12 +26,11 @@ A Node.js/Express backend with SQLite database for the Restaurant Finder applica
 ## Setup Instructions
 
 1. Install dependencies:
-
-   ```bash
+```bash
    npm install
    //or
    npm i
-   ```
+```
 
 2. Import data from SQL file:
    ```bash
